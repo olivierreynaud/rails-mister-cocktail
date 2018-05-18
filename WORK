@@ -1,0 +1,18 @@
+WORK
+1
+rails g model cocktails name:string
+rails g model ingredients name:string
+rails g model doses description:string ingredient:references cocktail:references
+
+2
+db control doses.  coktails ingredut
+rails g controller cocktails
+rails g controller doses
+
+puis ajout des resources
+
+
+3
+install gem "simple_form"
+
+rails g simple_form:install
